@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #202124;
+  color: white;
+}
+.note-app{
+  padding: 20px;
+}
+.note-app h1{
+  text-align: center;
+  padding-top: 20px;
+  padding: 20px;
+}
+.note-app h2{
+  text-align: center;
+  padding-top: 20px;
+  padding: 20px;
+}
+.noting{
+  text-align: center;
+  padding-top: 20px;
+  padding: 20px;
+  font-size: 2em;
+}
+.note-item{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 19em;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.note-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+ 
+}
+
+.notes-item__title{
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.notes-item__note{
+  text-align: justify;
+}
+.notes-item__date{
+  font-size: 15px;
+  color: rgba(0, 255, 255, 0.466);
+  padding-bottom: 10px;
+}
+
+.Note-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+  padding: 25px;
+  width: 40em;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.Note-input input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 35em;
+}
+.Note-input button {
+  padding: 10px 20px;
+  background-color: rgba(0, 255, 255, 0.466);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Note-input button:hover {
+  background-color: #22120377;
+}
+.note-item__delete{
+  background-color: rgba(0, 255, 255, 0.466);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+}
