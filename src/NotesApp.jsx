@@ -23,11 +23,11 @@ class NoteApp extends React.Component {
   }
 
   onDeleteHandler(id) {
-  const updatedNotes = this.state.Notes.filter((note) => note.id !== id);
-  this.setState({ Notes: updatedNotes });
-  // Menyimpan catatan ke localStorage setelah menghapus
-  localStorage.setItem("notes", JSON.stringify(updatedNotes));
-}
+    const updatedNotes = this.state.Notes.filter((note) => note.id !== id);
+    this.setState({ Notes: updatedNotes });
+    // Menyimpan catatan ke localStorage setelah menghapus
+    localStorage.setItem("notes", JSON.stringify(updatedNotes));
+    }
 
 
     onAddNoteHandler ( { title, body } )
